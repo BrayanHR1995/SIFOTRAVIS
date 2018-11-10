@@ -59,4 +59,4 @@ target/
 *.pyc
 **/.idea/
 Entregable\ 2/Web/db.sqlite3
-**/settings.py
+

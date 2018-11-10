@@ -7,7 +7,6 @@ env:
 # install dependencies
 install:
 - pip install -r Entregable_2/Web/requirements.txt
-
 # run test scripts
 script:
 - python Entregable_2/Web/manage.py test 

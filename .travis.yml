@@ -10,4 +10,4 @@ install:
 
 # run test scripts
 script:
-- python src/manage.py test 
+- python manage.py test 

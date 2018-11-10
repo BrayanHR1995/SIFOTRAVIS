@@ -1,13 +1,13 @@
 language: python
 python:
-- "2.7"
+- "3.6"
 # setup environment
 env:
 - DJANGO_VERSION=1.11.5
 # install dependencies
 install:
-- pip install -r Entregable 2/Web/requirements.txt
-Entregable 2/Web/
+- pip install -r Entregable_2/Web/requirements.txt
+
 # run test scripts
 script:
-- python Entregable 2/Web/manage.py test 
+- python Entregable_2/Web/manage.py test 

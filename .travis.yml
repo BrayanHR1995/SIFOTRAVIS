@@ -6,8 +6,8 @@ env:
 - DJANGO_VERSION=1.11.5
 # install dependencies
 install:
-- pip install -r hola/requirements.txt
-
+- pip install -r Entregable 2/Web/requirements.txt
+Entregable 2/Web/
 # run test scripts
 script:
-- python hola/manage.py test 
+- python Entregable 2/Web/manage.py test 

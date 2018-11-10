@@ -6,8 +6,8 @@ env:
 - DJANGO_VERSION=1.11.5
 # install dependencies
 install:
-- pip install -r requirements.txt
+- pip install -r hola/requirements.txt
 
 # run test scripts
 script:
-- python manage.py test 
+- python hola/manage.py test 
